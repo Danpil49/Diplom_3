@@ -48,21 +48,15 @@ public class BaseTestClass {
         } catch (IOException | ParseException e) {
             e.printStackTrace();
         }
-        WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
-//        switch(browser) {
-//            case("chrome"):
-//                WebDriverManager.chromedriver().setup();
-//                driver = new ChromeDriver();
-//            case("firefox"):
-//                WebDriverManager.firefoxdriver().setup();
-//                driver = new FirefoxDriver();
-//            case("yandex"):
-//                WebDriverManager.chromedriver().setup();
-//                driver = new ChromeDriver();
-//            default:
-//                WebDriverManager.chromedriver().setup();
-//                driver = new ChromeDriver();
-//        }
+        switch(browser) {
+            case("firefox"):
+                WebDriverManager.firefoxdriver().setup();
+                driver = new FirefoxDriver();
+                break;
+            default:
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+                break;
+        }
     }
 }
