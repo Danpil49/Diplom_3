@@ -1,0 +1,15 @@
+{
+  "browser": "chrome",
+  "homePageUrl": "https://stellarburgers.nomoreparties.site/",
+  "registerPageUrl": "https://stellarburgers.nomoreparties.site/register",
+  "loginPageUrl": "https://stellarburgers.nomoreparties.site/login",
+  "forgotPassUrl": "https://stellarburgers.nomoreparties.site/forgot-password",
+  "accountProfileURL": "https://stellarburgers.nomoreparties.site/account/profile",
+  "name": "praktikum-student",
+  "email": "praktikum-student@autotest.ru",
+  "password": "12345678",
+  "wrongPassword": "1",
+  "bun": 1,
+  "sauce": 2,
+  "filling": 3
+}
