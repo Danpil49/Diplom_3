@@ -5,7 +5,10 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import praktikum.page_object_model.*;
+import page_object_model.AccountProfile;
+import page_object_model.HomePage;
+import page_object_model.LoginPage;
+import page_object_model.RegisterPage;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

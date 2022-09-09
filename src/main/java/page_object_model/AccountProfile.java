@@ -1,12 +1,10 @@
-package praktikum.page_object_model;
+package page_object_model;
 
 import io.qameta.allure.Step;
-import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AccountProfile extends BasePageObjectClass{
     private final By profileButton = By.xpath("//a[text()='Профиль']");

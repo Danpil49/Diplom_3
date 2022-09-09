@@ -5,10 +5,10 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import praktikum.page_object_model.ForgotPassPage;
-import praktikum.page_object_model.HomePage;
-import praktikum.page_object_model.LoginPage;
-import praktikum.page_object_model.RegisterPage;
+import page_object_model.ForgotPassPage;
+import page_object_model.HomePage;
+import page_object_model.LoginPage;
+import page_object_model.RegisterPage;
 
 import static org.junit.Assert.assertTrue;
 import static praktikum.CleanUp.delete;

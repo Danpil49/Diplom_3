@@ -1,12 +1,10 @@
-package praktikum.page_object_model;
+package page_object_model;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.util.TreeMap;
 
 public class LoginPage extends BasePageObjectClass{
     private final By emailInputField = By.xpath("//input[@name='name']");

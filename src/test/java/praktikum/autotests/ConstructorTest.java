@@ -4,7 +4,7 @@ import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import praktikum.page_object_model.HomePage;
+import page_object_model.HomePage;
 
 import static org.junit.Assert.assertTrue;
 
